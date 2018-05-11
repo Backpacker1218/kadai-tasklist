@@ -1,3 +1,5 @@
 Rails.application.routes.draw do
- resources :messages
+  root to: 'tasks#index'
+  
+  resources :tasks
 end
